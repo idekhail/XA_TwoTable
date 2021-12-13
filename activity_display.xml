@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1" >
+        <TextView
+            android:text="Display Screen"
+            android:layout_width="match_parent"
+            android:layout_height="61.5dp"
+            android:id="@+id/textView1"
+            android:textColor="#ffffffff"
+            android:background="#ff000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center|top"
+            android:gravity="center" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="174.5dp"
+            android:id="@+id/linearLayout2"
+            android:background="#ff263238"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="146.0dp"
+                android:id="@+id/Show"
+                android:gravity="center"
+                android:textColor="#ff000000"
+                android:text="Show"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="#ffffffff"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49.0dp"
+            android:id="@+id/CourseName"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#ff000000"
+            android:textColor="#ffffffff"
+            android:textColorHint="#ffffffff"
+            android:hint="Course Name"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="69.0dp"
+            android:id="@+id/linearLayout3"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#ffeceff1">
+
+            <Button
+                android:text="All Codes"
+                android:layout_width="140.0dp"
+                android:layout_height="56.0dp"
+                android:id="@+id/AllCodes"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp" />
+            <Button
+                android:text="Logout"
+                android:layout_width="140.0dp"
+                android:layout_height="59.5dp"
+                android:id="@+id/Logout"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="77.0dp"
+            android:id="@+id/linearLayout4"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#ffeceff1">
+
+            <Button
+                android:text="All Courses"
+                android:layout_width="140.0dp"
+                android:layout_height="56.0dp"
+                android:id="@+id/AllCourses"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp" />
+            <Button
+                android:text="Control"
+                android:layout_width="140.0dp"
+                android:layout_height="59.5dp"
+                android:id="@+id/Control"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

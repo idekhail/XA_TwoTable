@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1" >
+        <TextView
+            android:text="Add Course Screen"
+            android:layout_width="match_parent"
+            android:layout_height="61.5dp"
+            android:id="@+id/textView1"
+            android:textColor="#ffffffff"
+            android:background="#ff000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center|top"
+            android:gravity="center" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="230.0dp"
+            android:id="@+id/linearLayout2"
+            android:background="#ff263238"
+            android:gravity="center">
+            <EditText
+                android:layout_width="338.5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Code"
+                android:gravity="center"
+                android:textColorHint="#ff000000"
+                android:hint="Code"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="#ffffffff" />
+            <EditText
+                android:layout_width="338.5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Course"
+                android:gravity="center"
+                android:textColorHint="#ff000000"
+                android:hint="Course Name"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="#ffffffff" />
+            <EditText
+                android:layout_width="338.5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Teacher"
+                android:gravity="center"
+                android:textColorHint="#ff000000"
+                android:hint="Teacher Name"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="#ffffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="145.0dp"
+            android:id="@+id/linearLayout3"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#ffeceff1">
+
+            <Button
+                android:text="Add Course"
+                android:layout_width="140.0dp"
+                android:layout_height="70.0dp"
+                android:id="@+id/AddCouse"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff" />
+            <Button
+                android:text="Cancel"
+                android:layout_width="140.0dp"
+                android:layout_height="70.0dp"
+                android:id="@+id/Cancel"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
